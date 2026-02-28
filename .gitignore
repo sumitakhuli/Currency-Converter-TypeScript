@@ -1,0 +1,9 @@
+# Ignore sensitive config
+config.ts
+config.js
+
+# Node modules
+node_modules/
+
+# Local service files
+.DS_Store
