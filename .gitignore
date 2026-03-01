@@ -1,8 +1,14 @@
-# Ignore sensitive config
-config.ts
-config.js
+# Environment
+.env
+.env.local
+.env.*.local
 
-# Node modules
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Dependencies
 node_modules/
 
 # Local service files

@@ -7,7 +7,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { API_KEY } from "./config.js";
+import { API_KEY } from "./config";
 const BASE_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}`;
 const COUNTRIES_URL = "https://restcountries.com/v3.1/all?fields=name,currencies,flags";
 const amountInp = document.getElementById("amount");
