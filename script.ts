@@ -15,7 +15,7 @@ const errMsg = document.querySelector(".error-message") as HTMLElement;
 // TypeScript Interfaces
 interface CountryData {
     flags: { png: string };
-    currencies: { [code: string]: { name: string } };
+    currencies: Record<string, { name: string }>;
 }
 
 interface CurrencyInfo {
